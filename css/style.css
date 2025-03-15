@@ -488,3 +488,16 @@
 footer {
     display: none;
 }
+.videoyoutube {
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+}
+@media screen and (max-width: 798px) {
+    .videoyoutube {
+        width: 100%;
+    }
+    .p-5 {
+        padding: 1rem !important;
+    }
+}
